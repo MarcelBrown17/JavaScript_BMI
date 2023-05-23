@@ -5,7 +5,10 @@
 
 body{
     display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     justify-content: center;
+    min-height: 100vh;
 }
 
 h1 {
@@ -43,7 +46,7 @@ input {
     transition: 0.5s;
   }
 
-  #answer {
+  #output{
     width: 100%;
     height: 60px;
     border: 2px solid rgb(7, 7, 7);
